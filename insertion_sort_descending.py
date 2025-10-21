@@ -13,3 +13,7 @@ def insertion_sort_descending(arr):
             j -= 1
         arr[j + 1] = key
 
+# Example usage
+if __name__ == "__main__":
+    data = [12, 4, 5, 23, 7, 18]
+    print("Original array:", data)
