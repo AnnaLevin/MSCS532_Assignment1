@@ -17,3 +17,6 @@ def insertion_sort_descending(arr):
 if __name__ == "__main__":
     data = [12, 4, 5, 23, 7, 18]
     print("Original array:", data)
+
+    insertion_sort_descending(data)
+    print("Sorted in decreasing order:", data)
