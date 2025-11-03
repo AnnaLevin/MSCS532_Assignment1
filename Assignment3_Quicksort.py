@@ -20,6 +20,7 @@ def deterministic_quicksort_first(arr):
 
 # Example test
 data = [5, 3, 8, 3, 9, 1, 5, 2, 7, 6]
+
 print("Original:", data)
 print("Randomized Quicksort:", randomized_quicksort(data))
 print("Deterministic Quicksort:", deterministic_quicksort_first(data))

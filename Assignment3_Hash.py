@@ -32,6 +32,7 @@ class HashTableChaining:
                 return True
         return False
 
+
 # Example test
 ht = HashTableChaining()
 ht.insert("apple", 10)
